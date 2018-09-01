@@ -10,7 +10,7 @@ module.exports.cardValidator = function cardValidator(cardnumber) {
   }
 
   let numReverse = cardnumber.toString().split("").reverse().map(Number);
-  let numOperators = numReverse.map((num, i) => {
+  let numOperations = numReverse.map((num, i) => {
     if (i % 2 === 1) {
       return (num * 2 <= 9 ) ? num * 2 : num * 2 - 9;
     } else {
@@ -18,9 +18,7 @@ module.exports.cardValidator = function cardValidator(cardnumber) {
     }
   });
 
-  let result = numOperators.reduce((acum, num) => {
-    return (acum + num);
-  });
+  let result = numOperations.reduce((acum, num) => acum + num);
 
   return (result % 10 === 0) ? true : false;
 };
