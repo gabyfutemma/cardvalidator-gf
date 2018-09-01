@@ -1,6 +1,6 @@
 const mocha = require("mocha");
 const chai = require("chai");
-const index = require('../index');
+const index = require("../index");
 const expect = chai.expect;
 
 describe("index", function() {
