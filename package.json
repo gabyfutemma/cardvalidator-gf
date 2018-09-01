@@ -1,0 +1,32 @@
+{
+  "name": "cardvalidator-gf",
+  "version": "1.0.0",
+  "description": "This is a lib of card validator using Luhn Algorithm",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "cardValidator()"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabyfutemma/cardvalidator-gf.git"
+  },
+  "keywords": [
+    "creditcard",
+    "card",
+    "validator",
+    "luhn"
+  ],
+  "author": "GabyFutemma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabyfutemma/cardvalidator-gf/issues"
+  },
+  "homepage": "https://github.com/gabyfutemma/cardvalidator-gf#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
