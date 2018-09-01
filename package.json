@@ -1,5 +1,5 @@
 {
-  "name": "cardvalidator-gf",
+  "name": "gf-cardvalidator",
   "version": "1.0.0",
   "description": "This is a lib of card validator using Luhn Algorithm",
   "main": "index.js",
