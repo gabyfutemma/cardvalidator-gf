@@ -16,7 +16,7 @@ $node
 
 
 ## Version 1.0.0
-- Functionalities: validate a card number.
+- Functionalities: validate a card number;
 - Return if the number is valid (true) or invalid (false);
 
 
