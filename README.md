@@ -10,7 +10,7 @@ Example:
 
 ```
 $node
-> let cardLib = require("gf-cardvalidator")
+> let cardLib = require("gftm-cardvalidator")
 > cardLib.cardValidator(36490102462661); //true
 ```
 
@@ -23,7 +23,7 @@ $node
 ## Installation
 - You must have node + npm installed.
 - Installation Guide, visit the [official site](https://www.npmjs.com/get-npm).
-- Proceed installation `$npm install gf-cardvalidator`
+- Proceed installation `$npm install gftm-cardvalidator`
 
 
 ## Roadmap of project
