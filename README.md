@@ -27,5 +27,11 @@ $node
 
 
 ## Roadmap of project
-**version 1.0.0 (released)**
+**version 2.0.0**
+- README in pt_br;
+
+**version 1.0.1 (released)**
+- Using eslint in files;
+
+**version 1.0.0**
 - Functionalities: validate a card number and return if is true or false;
