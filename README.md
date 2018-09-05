@@ -10,7 +10,7 @@ Example:
 
 ```
 $node
-> let cardLib = require("gftm-cardvalidator")
+> let cardLib = require("gf-card-validator")
 > cardLib.cardValidator(36490102462661); //true
 ```
 
@@ -23,15 +23,12 @@ $node
 ## Installation
 - You must have node + npm installed.
 - Installation Guide, visit the [official site](https://www.npmjs.com/get-npm).
-- Proceed installation `$npm install gftm-cardvalidator`
+- Proceed installation `$npm install gf-card-validator`
 
 
 ## Roadmap of project
 **version 2.0.0**
 - README in pt_br;
 
-**version 1.0.1 (released)**
-- Using eslint in files;
-
-**version 1.0.0**
+**version 1.0.0 (released)**
 - Functionalities: validate a card number and return if is true or false;
