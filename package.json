@@ -1,6 +1,6 @@
 {
   "name": "gf-card-validator-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a lib of card validator using Luhn Algorithm",
   "main": "index.js",
   "directories": {
