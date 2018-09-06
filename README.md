@@ -14,8 +14,10 @@ $node
 > cardLib.cardValidator(36490102462661); //true
 ```
 
+## Version 1.0.2 (released)
+- Add devDependencies;
 
-## Version 1.0.1 (released)
+## Version 1.0.1
 - Functions refactored;
 
 ## Version 1.0.0
